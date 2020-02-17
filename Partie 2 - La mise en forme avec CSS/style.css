@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("open-sans/sourcesanspro-black-webfont.woff2") format('woff2');
+         url("open-sans/sourcesanspro-black-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ 
+p
+{
+color: blue;
+font-family: "OpenSans"; 
+
+}
+
+
+
+
+  a
+  {font-weight: bold;
+    color: rgb(255, 0, 0);
+  
+  }
+  
+  .lien:hover{
+    color: rgb(3, 248, 65);
+}
