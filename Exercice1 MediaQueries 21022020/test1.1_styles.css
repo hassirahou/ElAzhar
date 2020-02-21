@@ -1,0 +1,29 @@
+
+
+  /* Mobile Styles */
+/* Sur uniquement les écrans, quand la largeur de la fenêtre fait au maximum 400px */
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: #F09A9D; /* Red */
+    }
+  }
+ /* Tablet Styles */
+/* Sur uniquement les écrans, quand la largeur de la fenêtre est comprise entre 401px et 960px */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  /* Desktop Styles */
+/* Sur uniquement les écrans, quand la largeur de la fenêtre fait au minimum 961px */
+@media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+  }
+  
+
+
+  
+
+
