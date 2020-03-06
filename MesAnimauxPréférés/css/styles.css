@@ -1,0 +1,235 @@
+body {
+  margin: 0px;
+}
+.page
+{
+		position: absolute;
+		width: 100%;
+		height: 2600px;
+    background-color:rgba(216, 216, 63, 0.384);    
+    display: flex;
+    flex-direction: column;
+
+  } 
+
+section
+{
+    width: 100%;
+    display: flex;    
+    align-items: unset;
+    font-size: 30px;
+    font-weight: bold;   
+  }
+
+#animaux 
+{
+		display: flex;	
+		width: 100%;
+		height: 794px;
+    overflow: visible;
+    
+  }
+
+  #ours_page,#elephant_page,#lion_page
+  {
+		filter: drop-shadow(0px 9px 6px rgba(46, 46, 36, 0.741));
+		position: absolute;
+		left: 24.5px;
+		top: 18.5px;
+		overflow: visible;
+		width: 654px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Stencil Std;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 200px;
+    color: rgba(255,255,255,1);
+  }
+
+
+#Mes_animaux_pr_f_r_s_ 
+{
+		filter: drop-shadow(0px 9px 6px rgba(46, 46, 36, 0.741));
+		position: absolute;
+		left: 24.5px;
+		top: 18.5px;
+		overflow: visible;
+		width: 654px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Stencil Std;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 88px;
+    color: rgba(255,255,255,1);
+  }
+  
+#Ours
+{
+    display: block;
+    float: right;
+    border: solid 2px #555;
+    padding: 2px;
+    margin: 20px 20px 20px 20px;
+  }
+
+#Lion
+{
+    display: block;
+    float: right;
+    border: solid 2px #555;
+    padding: 2px;
+    margin: 20px 20px 20px 20px;
+  }
+
+#Elephent
+{
+    display: block;
+    float: right;
+    border: solid 2px #555;
+    padding: 2px;
+    margin: 20px 20px 20px 20px;
+  }
+ 
+.header 
+{
+    background-color: #FEBC07;
+    height: 400px;  
+    margin: 15px 0px 0px 0px;  
+    
+  }
+
+.content 
+{
+    background-color: #FBF2C6;
+    height: 400px; 
+    margin: 20px 0px 0px 0px;
+    
+  }
+  
+.sign-up 
+{
+    background-color: #F3F3F3;
+    height: 400px; 
+    margin: 20px 0px 0px 0px;
+    
+  }
+  
+.feature-1 
+{
+    background-color: #F5CF8E;
+    width: 100%;
+    height: 400px;    
+    display: flex;   
+    flex-direction: row;    
+    font-size: 15px;
+    font-weight: normal; 
+    margin: 20px 0px 0px 0px;
+  }
+
+footer
+ {
+  background-color: #B28A00;
+      height: 100px;        
+      display: flexbox;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row;
+      font-size: 15px;
+      font-weight: normal;
+      margin: 20px 0px 0px 0px;
+  }
+
+  p
+  {
+    width: 100%;
+    /* white-space: nowrap; */
+		text-align: left;
+		font-family: 'Times New Roman', Times, serif;
+		font-style: normal;
+		font-weight: normal;
+    font-size: 20px;
+    text-justify: distribute ;
+  }
+
+#AFPA
+{ 
+    border: solid 2px #555;
+    padding: 2px;   
+  }
+
+#findus
+{
+    width: 50%;
+    margin: 0px 20px 20px 100px;
+
+
+  }
+  
+#regForm
+{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px 0px 0px 20px;  
+
+  }
+
+  .tab
+  {
+    width: 172px
+  }
+  
+#nextBtn
+{
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px solid black; */
+}
+
+#RS
+{    
+  display: block;
+  float: right;
+  border: solid 2px #555;
+  padding: 2px;
+  margin: 5px 5px 5px 5px;
+  }
+
+@media(max-width: 768px){
+body,
+.page,
+section,
+#animaux,
+#ours_page,
+#elephant_page,
+#lion_page,
+#Mes_animaux_pr_f_r_s_,
+#Ours,
+#Lion,
+#Elephent,
+.header,
+.content,  
+.sign-up,  
+.feature-1,
+footer,
+p,
+#AFPA,
+#findus,  
+#regForm,
+.tab,  
+#nextBtn,
+#RS,
+   { float:none;
+    text-align:center ;
+    width: 100% ;
+  }
+}
+
+
+
+
+
+
+
